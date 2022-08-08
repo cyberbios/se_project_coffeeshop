@@ -1,136 +1,230 @@
 @import url(../vendor/normalize.css);
-@font-face {
-  font-family: Noto Serif;
-  src: url(/Fonts/Noto_Serif/NotoSerif-Regular.ttf);
-}
 
 body {
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-  }
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
 
-  .page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: auto;
-  }
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+}
 
-  .header {
-    background: #fff;
-    background-image: url(../images/background_header.svg);
-    background-repeat: none;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-    margin: 30px 75px 0 75px;
-  }
+.header {
+  background: #fff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  margin: 0px 75px 0 75px;
+}
 
-  .header__main {
-    display: flex;
-    justify-content: space-between;
-  }
+.header__main {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .logo {
-    width: 125px;
-    height: 142px;
-    margin-top: 30px;
-    margin-left: 30px;
-    display: block;
-  }
+.logo {
+  width: 125px;
+  height: 142px;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: block;
+}
 
-  .nav {
-    margin-top: 30px;
-    margin-right: 80px;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
+.nav {
+  margin-top: 30px;
+  margin-right: 80px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
-  .nav__link {
-    font-family: 'Inter';
-    font-weight: 500;
-    color: #000;
-    text-decoration: none;
-  }
+.nav__link {
+  font-family: "Inter";
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
 
-  .nav__link:hover {
-    color: #2f80ed;
-    transition: 1s ease-out;
-  }
+.nav__link:hover {
+  color: #2f80ed;
+  transition: 1s ease-out;
+}
 
-  .header__title {
-    max-width: 729px;
-    margin: 202px auto auto 80px;
-    display: block;
-    }
+.header__title {
+  max-width: 729px;
+  margin: 202px auto auto 80px;
+  display: block;
+}
 
-    .title__span-accent {
-      font-family: 'Notoserif';
-      font-style: italic;
-      font-weight: normal;
-      font-size: 60px;
-      line-height: 72px;
-      color: #2f80ed;
-    }
+.title__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  /*font-weight: normal;*/
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
 
-    .title {
-      max-width: 729px;
-      margin-top: -100px;
-      font-family: 'Inter';
-      font-weight: 500;
-      font-size: 60px;
-      line-height: 72px;
-    }
+.title {
+  max-width: 729px;
+  margin-top: -100px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
 
-  .header__description {
-    max-width: 683px;
-    margin : 28px auto auto 80px;
-    display: block;
-    font-family: 'Notoserif';
-    font-size: 20px;
-    line-height: 30px;
-  }
+.header__description {
+  max-width: 683px;
+  margin: 28px auto auto 80px;
+  display: block;
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+}
 
-  .header__paragraph {
-    position: absolute;
-    left: 0;
-    bottom: 40px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding: 40 px 80px 0;
-    justify-content: space-between;
-    box-sizing: border-box;
-  }
+.header__paragraph {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 40 px 80px 0;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
 
-  .header__paragraph_text {
-    font-family: 'Inter';
-    color: #6f6f6f;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 5px;
-  }
+.header__paragraph_text {
+  font-family: "Inter";
+  color: #6f6f6f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
 
-  .header__paragraph_table {
-    list-style: none;
-    padding-left: 80px;
-  }
+.header__paragraph_table {
+  list-style: none;
+  padding-left: 80px;
+}
 
-  .header__paragraph_text_address {
-    padding-right: 80px;
-    color: #6f6f6f;
+.header__paragraph_text_address {
+  padding-right: 80px;
+  color: #6f6f6f;
+}
 
-  }
+.image {
+  max-width: 636px;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+  z-index: 1;
+  position: absolute;
+}
 
-  .image {
-    max-width: 636px;
-    width: 646px;
-    height: 568px;
-    top: 124px;
-    right: 5px;
-    z-index: 1;
-    position: absolute;
-  }
+.menu {
+  background-color: #0a2750;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 75px 0 75px;
+}
 
+.menu__title {
+  width: 780px;
+  position: relative;
+  margin-top: 100px;
+  /*margin-bottom: 24px;*/
+}
+
+.menu_menu__title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 0;
+  color: #fff;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
+
+.menu_menu__Subtitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Noto Serif';
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 0;
+}
+
+.menu__cards {
+  border: solid red;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1300px;
+}
+
+.card {
+  border: solid red;
+  margin-top: 0;
+  flex: 0 1 600px;
+}
+
+.container {
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 25%;
+}
+
+.card__title {
+  margin-top: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;  
+}
+
+.card__list-divider {
+  margin: 32px auto 0 0;
+}
+
+.card__list-item {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+  color: #fff;
+}
