@@ -20,7 +20,7 @@ body {
   background-position: center;
   height: 100vh;
   position: relative;
-  margin: 0px 75px 0 75px;
+  /* margin: 0px 75px 0 75px; */
 }
 
 .header__main {
@@ -73,7 +73,7 @@ body {
 
 .title {
   max-width: 729px;
-  margin-top: -100px;
+  /* margin-top: -100px; */
   font-family: "Inter";
   font-weight: 500;
   font-size: 60px;
@@ -143,14 +143,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 75px 0 75px;
+  height: 1100px;
+  /* margin: 0px 75px 0 75px; */
 }
 
 .menu__title {
   width: 780px;
   position: relative;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  top: 56px;
 }
 
 .menu_menu__title {
@@ -161,15 +161,13 @@ body {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding: 0px;
   color: #fff;
 }
 
 .menu__subtitle {
   max-width: 780px;
   position: relative;
-  margin-top: 24px;
-  margin-bottom: 100px;
+  top: 24px;
 }
 
 .menu_menu__Subtitle {
@@ -182,20 +180,18 @@ body {
   font-style: normal;
   font-weight: normal;
   color: #fff;
-  margin-top: 0;
 }
 
 .menu__cards {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  gap: 100px;
   flex-wrap: wrap;
-  width: 1300px;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .card__title {
-  margin-top: 0;
-  flex: 0 1 600px;
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -204,24 +200,22 @@ body {
   color: #fff;
 }
 
-.container {
-  width: 600px;
-  margin-top: 30px;
-  margin-left: 25%;
-}
-
 .card {
-  padding: 0;
-  overflow-x: hidden;
+  flex-grow: 1;
+  width: 600px;
+  padding-left: 0;
+  /* height: 300px; */
 }
 
 .card__list-divider {
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
+  flex-grow: 1;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  bottom: 4px;
 }
 
 .card__list-item {
+  display: flex;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -230,14 +224,9 @@ body {
   list-style: none;
   color: #fff;
   margin-bottom: 16px;
+  gap: 10px;
 }
 
-.card__list-item:before {
-  float: left;
-  width: 0;
-  white-space: nowrap;
-  content: "____________________________________________________________________";
-}
 
 .recipes {
   box-sizing: border-box;
@@ -250,6 +239,31 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 0px 75px 0 75px;
+  /* margin: 0px 75px 0 75px; */
+}
+
+.recipes__title {
+max-width: 580px;
+margin-top: 100px;
+margin-left: 80px;
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+  margin-top: 8px;
+  margin-left: 80px;
+}
+
+.recipes__videos {
+  display: flex;
+  gap: 40px;
+  position: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 215px;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
 }
