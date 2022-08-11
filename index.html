@@ -103,7 +103,7 @@
       <div class="main">
         <section class="menu">
           <div class="menu__title">
-            <p class="menu_menu__title">Menu</p>
+            <h1 class="menu_menu__title">Menu</h1>
           </div>
           <div class="menu__subtitle">
             <p class="menu_menu__Subtitle">
@@ -208,11 +208,11 @@
         </section>
         <section class="recipes">
           <div class="recipes__title">
-            <p>Recipes</p>
+            <h1 class="title__recipe">Recipes</h1>
           </div>
           <div class="recipes__subtitle">
-            <p>
-              Recipes Check out some recipes we've collected for your
+            <p class="subtitle__recipe">
+              Check out some recipes we've&nbsp;collected&nbsp;for your
               home-brewing convenience:
             </p>
           </div>
@@ -252,7 +252,56 @@
           </div>
         </section>
         <section class="reservation">
-          /*Section: Reservation*/ Book a table Name * Number of guests * Date &
+          <div class="reservation__title">
+            <h1 class="title__reserve">Book a table</h1>
+          </div>
+          <div class="reservation__form">
+            <form class="form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name *</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  id="name"
+                  name="name"
+                  placeholder="Name Surname"
+                />
+                </fieldset>
+                <fieldset class="form__fieldset"
+                <label for="guests" class="form__label">Number of guests *</label>
+                <input
+                  type="number"
+                  class="form__input"
+                  id="guests"
+                  name="guests"
+                  placeholder="1-8"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset"
+                <label for="date" class="form__label">Date & time *</label>
+                <input
+                  type="datetime"
+                  class="form__input"
+                  id="date"
+                  name="date"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <button type="submit" class="form__button">Book a table</button>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <input
+                  type="checkbox"
+                  class="form__input form__input-checkbox"
+                  name="remember-me"
+                  id="remember-me"
+                />
+                <label for="remember-me" class="form__label">I agree with the terms of use</label>
+              </fieldset>
+            </form>
+          </div>
+
+            Name * Number of guests * Date &
           time * Your email * Book a table I agree with the terms of use
           /*Placeholders*/ Name Surname 1-8 email@email.com
         </section>
