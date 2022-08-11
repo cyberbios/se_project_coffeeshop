@@ -261,49 +261,68 @@
                 <label for="name" class="form__label">Name *</label>
                 <input
                   type="text"
+                  required
                   class="form__input"
                   id="name"
                   name="name"
                   placeholder="Name Surname"
                 />
-                </fieldset>
-                <fieldset class="form__fieldset"
-                <label for="guests" class="form__label">Number of guests *</label>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="guests" class="form__label"
+                  >Number of guests *</label
+                >
                 <input
                   type="number"
+                  required
                   class="form__input"
                   id="guests"
                   name="guests"
                   placeholder="1-8"
                 />
               </fieldset>
-              <fieldset class="form__fieldset"
+              <fieldset class="form__fieldset">
                 <label for="date" class="form__label">Date & time *</label>
                 <input
-                  type="datetime"
+                  type="datetime-local"
+                  required
                   class="form__input"
                   id="date"
                   name="date"
+                  placeholder="mm/dd/yyyy --:-- --"
                 />
               </fieldset>
               <fieldset class="form__fieldset">
-                <button type="submit" class="form__button">Book a table</button>
-              </fieldset>
-              <fieldset class="form__fieldset">
+                <label for="email" class="form__label">Your email *</label>
                 <input
-                  type="checkbox"
-                  class="form__input form__input-checkbox"
-                  name="remember-me"
-                  id="remember-me"
+                  type="email"
+                  required
+                  class="form__input"
+                  id="email"
+                  name="email"
+                  placeholder="email@email.com"
                 />
-                <label for="remember-me" class="form__label">I agree with the terms of use</label>
               </fieldset>
+              <div class="reservation__form_footer">
+                <fieldset class="form__fieldset">
+                  <button type="submit" class="form__button">
+                    Book a table
+                  </button>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                  <input
+                    type="checkbox"
+                    class="form__input form__input-checkbox"
+                    name="agree"
+                    id="agree"
+                  />
+                  <label for="agree" class="form__label"
+                    >I agree with the terms of use</label
+                  >
+                </fieldset>
+              </div>
             </form>
           </div>
-
-            Name * Number of guests * Date &
-          time * Your email * Book a table I agree with the terms of use
-          /*Placeholders*/ Name Surname 1-8 email@email.com
         </section>
         <section class="about">
           /*Section: About the coffee shop*/ About the coffee shop Our coffee
