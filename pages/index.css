@@ -73,7 +73,7 @@ body {
 
 .title {
   max-width: 729px;
-  /* margin-top: -100px; */
+  margin-top: -100px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 60px;
@@ -305,16 +305,17 @@ body {
   background-repeat: none;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 1100px; */
+  height: 1100px;
 }
 
 .reservation__title {
-  margin: 100px auto 80px;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 .title__reserve {
@@ -330,10 +331,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .form {
-  margin: 0 auto;
+  
   max-width: 385px;
   max-height: 536px;
   background: transparent;
@@ -369,21 +371,85 @@ body {
   color: #838383;
 }
 
-.reservation__form_footer {
-  margin: 0 auto;
-  max-width: 385px;
-  box-sizing: border-box;
-  align-items: center;
+.form__button {
+  padding: 32px auto 32px;
+  position: relative;
 }
 
-.form__button [type="submit"] {
-  width: 385px;
-  height: 60px;
-  font-family: "Inter";
+.form__button_submit {
+  width: 407px;
+  height: 68px;
   color: #fff;
+  background-color: #2f80ed;
+  border-radius: 4px;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  background-color: #2f71e5;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.form__button_submit:hover {
+  opacity: 0.7;
+  transition-duration: 0.5s;
+}
+
+.form__checkbox {
+  width: 407px;
+  height: 68px;
+  position: relative;
+  margin-left: 10px;
+  display: grid;
+  justify-content: center;
+}
+
+.form__input-checkbox {
+width: 20px;
+height: 20px;
+border-radius: 2px;
+background-color: #2f80ed;
+background-image: url(../images/check.svg);
+vertical-align: middle; 
+margin-right: 12px;
+}
+
+.form__label-checkbox {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about {
+  box-sizing: border-box;
+  background-color: #0A2850;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  
+}
+
+.about__title {
+  gap: 120px;
+  padding: 100px 80px;
+  overflow: hidden;
+  color: white;
+}
+
+.footer {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  box-sizing: border-box;
+  background-image: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
 }
