@@ -1,7 +1,7 @@
 .header {
     background: #fff;
     background-image: url(../images/background_header.svg);
-    background-repeat: none;
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -43,8 +43,9 @@
   }
   
   .header__title {
-    max-width: 729px;
-    margin: 202px auto auto 80px;
+    width: 729px;
+    margin-top: 202px;
+    margin-left: 80px;
     display: block;
   }
   
@@ -57,7 +58,7 @@
     color: #2f80ed;
   }
   
-  .title {
+  .header__title_title {
     max-width: 729px;
     margin-top: -100px;
     font-family: "Inter";

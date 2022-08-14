@@ -2,7 +2,7 @@
     box-sizing: border-box;
     background-color: #d9e7ff;
     background-image: url(../images/background_reservation.svg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     /* height: 100vh; */
@@ -18,7 +18,7 @@
     margin-bottom: 80px;
   }
   
-  .title__reserve {
+  .reservation__title_title_reserve {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -71,7 +71,6 @@
   }
   
   .form__button {
-    padding: 32px auto 32px;
     position: relative;
   }
   

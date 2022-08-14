@@ -2,7 +2,7 @@
     box-sizing: border-box;
     background-color: #0a2750;
     background-image: url(../images/background_menu.svg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -19,7 +19,7 @@
     margin-bottom: 24px;
   }
   
-  .menu__menu__title {
+  .menu__title_menu {
     display: flex;
     justify-content: center;
     font-family: "Inter";
