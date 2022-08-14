@@ -1,0 +1,64 @@
+.about {
+    box-sizing: border-box;
+    background-color: #0a2850;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .title__about {
+    max-width: 251px;
+    padding: 100px 80px;
+    overflow: hidden;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: white;
+  }
+  
+  .about__content {
+    max-width: 660px;
+    padding: 119px 80px 173px 450px;
+  }
+  
+  .about__paragraph {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    gap: 20px;
+  }
+  
+  .about__circle {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -129px;
+    top: -152px;
+  }
+  
+  .about__circle_animation_blurred {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -129px;
+    top: -152px;
+    transform: scale(1.2);
+    animation: pulsate 1.3s ease-in-out infinite;
+    transition-delay: 0s;
+  }

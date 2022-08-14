@@ -9,7 +9,7 @@
     />
     <meta name="author" content="Lev Meir" />
     <title>Practicum CoffeeShop</title>
-    <link rel="icon" type="image" href="./favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -103,7 +103,7 @@
       <div class="main">
         <section class="menu">
           <div class="menu__title">
-            <h1 class="menu_menu__title">Menu</h1>
+            <h1 class="menu__menu__title" id="menu">Menu</h1>
           </div>
           <div class="menu__subtitle">
             <p class="menu_menu__Subtitle">
@@ -208,7 +208,7 @@
         </section>
         <section class="recipes">
           <div class="recipes__title">
-            <h1 class="title__recipe">Recipes</h1>
+            <h1 class="title__recipe" id="recipes">Recipes</h1>
           </div>
           <div class="recipes__subtitle">
             <p class="subtitle__recipe">
@@ -253,7 +253,7 @@
         </section>
         <section class="reservation">
           <div class="reservation__title">
-            <h1 class="title__reserve">Book a table</h1>
+            <h1 class="title__reserve" id="book-a-table">Book a table</h1>
           </div>
           <div class="reservation__form">
             <form class="form">
@@ -351,7 +351,7 @@
         </section>
       </div>
     </div>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
       <div class="footer__content">
         <div class="footer__logo">
           <img
@@ -360,21 +360,34 @@
             alt="logo Practicum"
           />
         </div>
-        <div class="footer__social-heading">Social media</div>
+        <ul class="footer__list footer__social-heading">
+      <div class="footer__column footer__column_content_social">
+        <h4 class="footer__column-heading" id="Footer-heading">
+          Social Media
+        </h4>
         <ul class="footer__list">
           <li class="footer__list-item">
-            <a class="footer__social-link" href="#">
-              <img class="footer__social-icon" src="./images/facebook_white.svg" alt="facebook logo">Facebook
+            <a class="footer__column-link" href="#">
+              <img
+                class="footer__social-icon"
+                src="./images/facebook_white.svg"
+                alt="Facebook logo"
+              />Facebook
             </a>
           </li>
           <li class="footer__list-item">
-            <a class="footer__social-link" href="#">
-              <img class="footer__social-icon" src="./images/instagram_white.svg" alt="instagram logo">Instagram
+            <a class="footer__column-link" href="#">
+              <img
+                class="footer__social-icon"
+                src="./images/instagram_white.svg"
+                alt="Instagram logo"
+              />Instagram
             </a>
           </li>
         </ul>
       </div>
-      <p class="footer__copyright">© 2022 Lev Meir</p>
+    </div>
+    <p class="footer__copyright">© 2022 Lev Meir</p>
     </footer>
   </body>
 </html>
