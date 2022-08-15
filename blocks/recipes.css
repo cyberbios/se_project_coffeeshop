@@ -65,3 +65,7 @@
     line-height: 30px;
     top: 24px;
   }
+
+  .recipes__iframe {
+    border: 0;
+  }
