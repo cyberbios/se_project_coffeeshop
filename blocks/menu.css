@@ -71,14 +71,14 @@
     /* height: 300px; */
   }
   
-  .card__divider {
+  .menu__divider {
     flex-grow: 1;
     border-bottom: 1px solid #fff;
     position: relative;
     bottom: 4px;
   }
   
-  .card__item {
+  .menu__item {
     display: flex;
     font-family: "Noto Serif";
     font-style: normal;
