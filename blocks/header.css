@@ -43,28 +43,23 @@
   }
   
   .header__title {
-    width: 729px;
-    margin-top: 202px;
+    max-width: 729px;
+    margin-top: 100px;
     margin-left: 80px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
     display: block;
   }
   
-  .header__title__span {
+  .header__span {
     font-family: "Noto Serif";
     font-style: italic;
     /*font-weight: normal;*/
     font-size: 60px;
     line-height: 72px;
     color: #2f80ed;
-  }
-  
-  .header__title__coffe {
-    max-width: 729px;
-    margin-top: -100px;
-    font-family: "Inter";
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 72px;
   }
   
   .header__description {
@@ -88,7 +83,7 @@
     box-sizing: border-box;
   }
   
-  .header__paragraph__text {
+  .header__text {
     font-family: "Inter";
     color: #6f6f6f;
     font-style: normal;
@@ -98,12 +93,12 @@
     margin: 0;
   }
   
-  .header__paragraph__table {
+  .header__table {
     list-style: none;
     padding-left: 80px;
   }
   
-  .header__paragraph__text__address {
+  .header__address {
     padding-right: 80px;
     color: #6f6f6f;
   }
