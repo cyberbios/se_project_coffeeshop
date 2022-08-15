@@ -33,7 +33,7 @@
     line-height: 30px;
   }
   
-  .recipes__title_title_recipe {
+  .recipes__title_title__recipe {
     margin: 0 auto 0;
     font-family: "Inter";
     font-style: normal;
@@ -42,7 +42,7 @@
     line-height: 52px;
   }
   
-  .subtitle__recipe {
+  .recipes__subtitle_subtitle__recipe {
     margin: 0 auto 0;
   }
   

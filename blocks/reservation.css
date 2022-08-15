@@ -18,7 +18,7 @@
     margin-bottom: 80px;
   }
   
-  .reservation__title_title_reserve {
+  .reservation__title_title__reserve {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -74,7 +74,7 @@
     position: relative;
   }
   
-  .form__button_submit {
+  .form__button__submit {
     width: 407px;
     height: 68px;
     color: #fff;
