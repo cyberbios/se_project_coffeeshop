@@ -11,7 +11,7 @@
     overflow: hidden;
   }
   
-  .about__title_about {
+  .about__title-about {
     max-width: 251px;
     padding: 100px 80px;
     overflow: hidden;
@@ -49,7 +49,7 @@
     top: -152px;
   }
   
-  .about__circle_animation_blurred {
+  .about__circle_animation-blurred {
     background-color: #2f80ed;
     width: 426px;
     height: 426px;
