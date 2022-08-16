@@ -5,38 +5,4 @@
 @import url(../blocks/reservation.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
-
-@keyframes pulsate {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.6;
-  }  
-  100% {
-    opacity: 0;
-  }
-}
-
-body {
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  z-index: 1;
-}
-
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: auto;
-}
-
-
-
-
-
-
-
-
-
-
+@import url(../blocks/page.css);

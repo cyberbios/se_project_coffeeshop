@@ -5,11 +5,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
-    /* margin: 0px 75px 0 75px; */
   }
   
   .recipes__title {
@@ -31,19 +29,6 @@
     font-family: "Noto Serif";
     font-size: 20px;
     line-height: 30px;
-  }
-  
-  .recipes__recipe {
-    margin: 0 auto 0;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-  }
-  
-  .recipes__subtitle-recipe {
-    margin: 0 auto 0;
   }
   
   .recipes__videos {
