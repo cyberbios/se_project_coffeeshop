@@ -1,3 +1,15 @@
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }  
+  100% {
+    opacity: 0;
+  }
+}
+
 .about {
     box-sizing: border-box;
     background-color: #0a2850;
@@ -14,7 +26,6 @@
   .about__title-about {
     max-width: 251px;
     padding: 100px 80px;
-    overflow: hidden;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -25,7 +36,9 @@
   
   .about__content {
     max-width: 660px;
-    padding: 119px 80px 173px 450px;
+    margin-top: 119px;
+    margin-right: 80px;
+    margin-bottom: 173px;
   }
   
   .about__paragraph {
@@ -35,7 +48,11 @@
     font-size: 20px;
     line-height: 30px;
     color: white;
-    gap: 20px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   .about__circle {
@@ -49,15 +66,7 @@
     top: -152px;
   }
   
-  .about__animation {
-    background-color: #2f80ed;
-    width: 426px;
-    height: 426px;
-    border-radius: 50%;
-    z-index: -1;
-    position: absolute;
-    left: -129px;
-    top: -152px;
+  .about__circle_animation_blurred {
     transform: scale(1.2);
     animation: pulsate 1.3s ease-in-out infinite;
     transition-delay: 0s;
