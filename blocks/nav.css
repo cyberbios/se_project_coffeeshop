@@ -1,17 +1,6 @@
 .nav {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
-}
-
-.nav__list {
-  margin: 0;
-  padding-top: 30px;
-  padding-right: 80px;
-  padding-left: 0;
-  list-style: none;
-  display: flex;
-  gap: 20px;
 }
 
 .nav__link {
@@ -26,30 +15,11 @@
   color: #2f80ed;
   transition: 1s ease-out;
 }
-=======
-    display: flex;
-    justify-content: space-between;
-   }
-   
-   .nav__links {
-      margin-top: 30px;
-     margin-right: 80px;
-     list-style: none;
-     display: flex;
-     gap: 20px;
-   }
-   
-   .nav__link {
-     font-family: "Inter";
-     font-style: normal;
-     font-weight: 500;
-     color: #000;
-     text-decoration: none;
-   }
-   
-   .nav__link:hover {
-     color: #2f80ed;
-     transition: 1s ease-out;
-   }
-   
->>>>>>> 141d8e94f15f0cff5dd5ea29ee0106b39b4a9aaa
+
+.nav__links {
+  margin-top: 30px;
+  margin-right: 80px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
