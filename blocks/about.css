@@ -11,6 +11,7 @@
 }
 
 .about {
+<<<<<<< HEAD
   box-sizing: border-box;
   background-color: #0a2850;
   background-repeat: no-repeat;
@@ -74,3 +75,60 @@
   animation: pulsate 1.3s ease-in-out infinite;
   transition-delay: 0s;
 }
+=======
+    box-sizing: border-box;
+    background-color: #0a2850;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .about__title {
+    max-width: 251px;
+    padding: 100px 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: white;
+  }
+  
+  .about__content {
+    max-width: 660px;
+    margin-top: 119px;
+    margin-right: 80px;
+    margin-bottom: 173px;
+  }
+  
+  .about__paragraph {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    display: block;
+  }
+  
+  .about__circle {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -129px;
+    top: -152px;
+  }
+  
+  .about__circle_animation_blurred {
+    transform: scale(1.2);
+    animation: pulsate 1.3s ease-in-out infinite;
+  }
+>>>>>>> 141d8e94f15f0cff5dd5ea29ee0106b39b4a9aaa
