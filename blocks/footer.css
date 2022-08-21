@@ -49,6 +49,10 @@
   margin-right: 10px;
 }
 
+.footer__social-heading {
+  margin: 0 0 20px;
+}
+
 .footer__copyright {
   font-family: "Inter";
   font-style: normal;

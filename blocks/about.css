@@ -70,7 +70,7 @@
 }
 
 .about__circle_animation_blurred {
-  transform: scale(1.2);
+  transform: scale(1.1);
   animation: pulsate 1.3s ease-in-out infinite;
   transition-delay: 0s;
 }
