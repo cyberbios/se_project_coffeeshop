@@ -25,7 +25,8 @@
   margin-bottom: 8px;
 }
 
-.form__fieldset_type_checkbox {
+.form__label_type_checkbox {
+  display: inline;
   margin: 0;
 }
 
